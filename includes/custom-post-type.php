@@ -33,6 +33,7 @@ function arch_custom_post_type(){
       'menu_icon'           => 'dashicons-admin-site',
       'capability_type'     => 'post',
       'show_ui'             => true,
+      'taxonomies'          => array('category'),
       'supports'            => array( 'title', 'editor', 'excerpt','thumbnail')
   );
   register_post_type( 'project', $project_args );

@@ -649,6 +649,7 @@ p {
 
 .outline__text {
   position: absolute;
+  text-transform: capitalize;
   font-size: 40rem;
   line-height: 1;
   top: 50%;

@@ -193,7 +193,7 @@
           } ?>
           <div class="project__content">
             <div>
-              <h4 class="project__category">Interior</h4>
+              <h4 class="project__category"><?php the_category()?></h4>
               <p class="project__desc">
               <?php echo wp_trim_words( get_the_excerpt(), 25 ) ?>
               </p>
